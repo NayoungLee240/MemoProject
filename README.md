@@ -26,16 +26,43 @@
 
 ## 3. 구현 기술
 
-* Language : Java, SQL, XML
-* Tools : Android Studio
+* Application : Android Studio
+
+  * Language : Java, XML
+
   * 안드로이드 version
-    * minSdkVersion 24
-    * compileSdkVersion 30
-    * buildToolsVersion "30.0.2"
+
+    > minSdkVersion 24
+    > compileSdkVersion 30
+    > buildToolsVersion "30.0.2"
+
+* Web Server : Eclipse
+
+  * Language : Java Spring, CSS, HTML, JSON
 
 ## 4. 구현 목표
 
-* Application concept
+### Application
+
+1. Splash Activity
+
+   설명+image
+
+2. Main Activity
+
+   설명+image
+
+3. Edit Memo Activity
+
+   설명+image
+
+4. View Memo Activity
+
+   설명+image
+
+### Web
+
+1. DB ERD
 
 
 
