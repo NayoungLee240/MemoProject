@@ -44,21 +44,26 @@
 
 ### Application
 
-1. Splash Activity
+#### 1. Splash Activity
 
-   설명+image
+설명+image
 
-2. Main Activity
+   
 
-   설명+image
+#### 2. Main Activity
 
-3. Edit Memo Activity
+* View방식에 따른 화면 모양![main_ex](md-images/main_ex.gif)
 
-   설명+image
+- Menu![menu_ex](md-images/menu_ex.gif)
 
-4. View Memo Activity
 
-   설명+image
+#### 3. Edit Memo Activity
+
+설명+image
+
+#### 4. View Memo Activity
+
+설명+image
 
 ### Web
 
