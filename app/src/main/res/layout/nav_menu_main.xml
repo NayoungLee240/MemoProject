@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/memoAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="전체 메모 (0)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/deviceAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="디바이스 메모(0)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+        <ImageView
+            android:id="@+id/addFolderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@+id/dArrowButton"
+            app:srcCompat="@drawable/ic_new_folder" />
+
+        <ImageView
+            android:id="@+id/dArrowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@drawable/ic_arrow_up" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/dFolderList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="1dp"
+        android:paddingStart="10dp">
+
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/onlineAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="온라인(0)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+        <ImageView
+            android:id="@+id/userSettingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@+id/oArrowButton"
+            app:srcCompat="@drawable/ic_settings" />
+
+        <ImageView
+            android:id="@+id/oArrowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@drawable/ic_arrow_up" />
+    </RelativeLayout>
+     <ListView
+        android:id="@+id/oFolderList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         android:layout_marginBottom="1dp"
+        android:paddingStart="10dp">
+
+    </ListView>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:text="환경설정"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+</LinearLayout>
