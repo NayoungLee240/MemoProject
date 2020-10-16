@@ -22,13 +22,15 @@
 
 ## 2. 시스템 구성도
 
+![image-20201016143319800](md-images/image-20201016143319800.png)
 
+* 모바일의 저장소와 웹에서의 저장소를 구별해서 메모를 저장한다.
 
 ## 3. 구현 기술
 
 * Application : Android Studio
 
-  * Language : Java, XML
+  * Language : Java, XML, SQL
 
   * 안드로이드 version
 
@@ -38,21 +40,26 @@
 
 * Web Server : Eclipse
 
-  * Language : Java Spring, CSS, HTML, JSON
+  * Language : Java Spring, CSS, HTML, Java Script, SQL
 
 ## 4. 구현 목표
+
+* 구현 목표 화면과 이에 대한 설명, 시나리오 등
 
 ### Application
 
 #### 1. Splash Activity
 
-설명+image
+image
 
-   
+* 어플리케이션을 켰을 때 가장 먼저 보이는 화면으로 메인 화면 구성 요소를 띄우기 위한 대기화면이다.
+* 앱을 켜고 기존의 앱 설정과 네트워크를 통해 데이터를 받아올때 사용될 예정이다.
 
 #### 2. Main Activity
 
 * View방식에 따른 화면 모양![main_ex](md-images/main_ex.gif)
+  * 해당 화면은 메모앱을 켜고 가장 먼저 보이는 화면과 기본 UI구성의 화면으로 사용자에게 메모의 목록, 소량의 내용을 보여주도록 구성된다.
+  * 사용자가 보기 편한 뷰 방식으로 제공되기 위해 리스트/대시보드 두가지 형식으로 구성한다.
 
 - Menu![menu_ex](md-images/menu_ex.gif)
 
