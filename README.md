@@ -64,17 +64,20 @@ image
 - Menu![menu_ex](md-images/menu_ex.gif)
 
 
-#### 3. Edit Memo Activity
+#### 3. View Memo Activity
+
+* View Memo 사진유무에 따른 이미지![view_memo_ex](md-images/view_memo_ex.gif)
+
+#### 4. Edit Memo Activity
 
 설명+image
 
-#### 4. View Memo Activity
-
-설명+image
+#### 5. DB ERD
 
 ### Web
 
 1. DB ERD
+2. 웹화면
 
 
 
