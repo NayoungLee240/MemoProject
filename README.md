@@ -30,17 +30,21 @@
 
 * Application : Android Studio
 
-  * Language : Java, XML, SQL
+  * Language : Java, XML, SQL, JSON
 
-  * 안드로이드 version
+  * 환경 : 안드로이드 SDK version
 
     > minSdkVersion 24
     > compileSdkVersion 30
     > buildToolsVersion "30.0.2"
+    
+  * DB : SQL Lite
 
 * Web Server : Eclipse
 
-  * Language : Java Spring, CSS, HTML, Java Script, SQL
+  * Language : Java, CSS, HTML, JavaScript, JSON, SQL
+  * 환경 : Java Spring, jdk1.8.0, Apache Tomcat v9.0
+  * DB : OracleDB
 
 ## 4. 구현 목표
 
